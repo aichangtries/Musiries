@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musiries - Music Around the World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">🎵 Musiries</h1>
+                <p class="tagline">Discover Music from Around the World</p>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Explore Global Sounds</h2>
+            <p>Journey through different cultures and musical traditions from across the globe</p>
+        </section>
+
+        <section class="filters">
+            <button class="filter-btn active" data-region="all">All Countries</button>
+            <button class="filter-btn" data-region="asia">Asia</button>
+            <button class="filter-btn" data-region="europe">Europe</button>
+            <button class="filter-btn" data-region="africa">Africa</button>
+            <button class="filter-btn" data-region="americas">Americas</button>
+            <button class="filter-btn" data-region="oceania">Oceania</button>
+        </section>
+
+        <section class="music-grid" id="musicGrid">
+            <!-- Music cards will be dynamically inserted here -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Musiries - Celebrating World Music</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
